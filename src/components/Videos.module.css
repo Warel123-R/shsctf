@@ -1,0 +1,22 @@
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    text-align: left;
+    color: #1b5e20;
+}
+
+.main h4{
+    margin: 0 0 1rem 0;
+    text-transform: uppercase;
+}
+.err{
+    color: red;
+}
+
+@media (max-width: 991px) {
+    .main{
+        grid-template-columns: 1fr;
+    }
+}
